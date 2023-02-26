@@ -21,6 +21,7 @@ public class CountDuplicate {
         l.add(e2);
         Map<Integer,Long> map=l.stream().collect(Collectors.groupingBy(Employee::getId,Collectors.counting()));
         System.out.println(map);
+		System.out.println(map);
 
     }
 }
